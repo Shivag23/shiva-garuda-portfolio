@@ -14,7 +14,7 @@ export function Footer() {
           <div className="grid gap-10 border border-border bg-surface/50 p-6 sm:grid-cols-[1.2fr_0.8fr] sm:p-8">
             <div>
               <p className="max-w-md text-lg leading-8 text-muted">
-                Reach me by email, or through GitHub and LinkedIn.
+                Reach me by email, or LinkedIn.
               </p>
               <a
                 href={`mailto:${site.email}`}

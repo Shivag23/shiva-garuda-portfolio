@@ -36,7 +36,6 @@ export const projects = [
     id: "P-01",
     title: "CAD Collector Design",
     domain: "CAD / Mechanical",
-    featured: true,
     description:
       "Helped design the game-piece collector for my robotics team — a single-axis pivot with a single roller, modeled in Onshape.",
     tags: ["Onshape"],
@@ -46,7 +45,7 @@ export const projects = [
         alt: "Onshape assembly of the collector frame, single-axis pivot, and roller",
       },
       {
-        src: "/images/cad-collector/sketch.png",
+        src: "/images/cad-collector/sketch.jpg",
         alt: "Side-profile CAD sketch of the collector pivot and roller",
       },
       {
@@ -81,7 +80,6 @@ export const projects = [
       {
         src: "/images/fantasy-analyzer/hero.jpg",
         alt: "Fantasy Analyzer landing page with player search and NFL research tools",
-        fit: "cover",
       },
     ],
   },
@@ -94,7 +92,7 @@ export const projects = [
     tags: ["Python", "Deep Learning", "Google Colab"],
     images: [
       {
-        src: "/images/vae/tsne.png",
+        src: "/images/vae/tsne.jpg",
         alt: "t-SNE plots comparing TimeGAN and TimeVAE synthetic time-series distributions against real data",
       },
     ],
@@ -106,6 +104,20 @@ export const projects = [
     description:
       "Designed and 3D-printed a custom enclosure in OnShape, then wired and soldered an Arduino, RFID sensor, and servo motor to integrate embedded hardware with Toio robots. Programmed robots in JavaScript for autonomous map sweeping and player-controlled Tic-Tac-Toe. Mentored 2 teammates and presented HCI research to 150+ community members.",
     tags: ["JavaScript", "Arduino", "RFID", "OnShape"],
+    images: [
+      {
+        src: "/images/tic-tac-toe/hardware.jpg",
+        alt: "Three RFID-equipped Arduino cubes built for the robotic Tic-Tac-Toe interface",
+      },
+      {
+        src: "/images/tic-tac-toe/board.jpg",
+        alt: "3D-printed Tic-Tac-Toe grid with a game token on the board",
+      },
+      {
+        src: "/images/tic-tac-toe/interface.jpg",
+        alt: "Control interface for Arduino, motors, magnets, and Toio cubes",
+      },
+    ],
   },
 ] as const;
 
