@@ -34,35 +34,74 @@ export const nav = [
 export const projects = [
   {
     id: "P-01",
+    title: "CAD Collector Design",
+    domain: "CAD / Mechanical",
+    featured: true,
+    description:
+      "Helped design the game-piece collector for my robotics team — a single-axis pivot with a single roller, modeled in Onshape.",
+    tags: ["Onshape"],
+    images: [
+      {
+        src: "/images/cad-collector/assembly.png",
+        alt: "Onshape assembly of the collector frame, single-axis pivot, and roller",
+      },
+      {
+        src: "/images/cad-collector/sketch.png",
+        alt: "Side-profile CAD sketch of the collector pivot and roller",
+      },
+      {
+        src: "/images/cad-collector/pivot.png",
+        alt: "Exploded Onshape view of the collector single-axis pivot",
+      },
+    ],
+  },
+  {
+    id: "P-02",
     title: "Wearable Posture Monitor",
-    dates: "Jul. 2025 – May 2026",
     domain: "Embedded",
     description:
       "Wearable posture-correction device with Arduino Nano, buzzer, and battery. Improved slouch-detection accuracy by 40% and delivered haptic feedback in under 0.5 seconds. Filed a provisional patent and user-tested with 20+ students.",
     tags: ["Arduino Nano", "Embedded C", "MPU6050", "Circuit Design"],
+    images: [
+      {
+        src: "/images/posture-monitor/prototype.png",
+        alt: "Arduino Nano prototype of the wearable posture monitor wired to sensor modules",
+      },
+    ],
   },
   {
-    id: "P-02",
+    id: "P-03",
     title: "Fantasy Football Analyzer",
-    dates: "Jul. 2026 – Aug. 2026",
     domain: "Full-stack / ML",
     description:
       "Full-stack web app that scrapes historical NFL statistics and serves weekly player-performance predictions from a trained neural network. Front end deployed on Vercel with a Neon Postgres backend; multi-agent workflows used to accelerate development.",
     tags: ["Python", "Node.js", "Neural Networks", "Vercel", "Neon"],
+    href: "https://fantasy-analyzer.vercel.app/",
+    images: [
+      {
+        src: "/images/fantasy-analyzer/hero.png",
+        alt: "Fantasy Analyzer landing page with player search and NFL research tools",
+        fit: "cover",
+      },
+    ],
   },
   {
-    id: "P-03",
+    id: "P-04",
     title: "VAE for Neuroimaging Data Generation",
-    dates: "May 2024 – Aug. 2024",
     domain: "ML / Research",
     description:
       "Trained a variational autoencoder on 3,000+ time-series samples over a 6-week research project at the CU Boulder Imagine AI Lab, generating synthetic neuroimaging data with ~3% reconstruction error. Presented findings to lab researchers.",
     tags: ["Python", "Deep Learning", "Google Colab"],
+    images: [
+      {
+        src: "/images/vae/tsne.png",
+        alt: "t-SNE plots comparing TimeGAN and TimeVAE synthetic time-series distributions against real data",
+      },
+    ],
   },
   {
-    id: "P-04",
+    id: "P-05",
     title: "Robotic Tic-Tac-Toe TUI",
-    dates: "Jun. 2023 – Aug. 2023",
     domain: "Robotics / HCI",
     description:
       "Designed and 3D-printed a custom enclosure in OnShape, then wired and soldered an Arduino, RFID sensor, and servo motor to integrate embedded hardware with Toio robots. Programmed robots in JavaScript for autonomous map sweeping and player-controlled Tic-Tac-Toe. Mentored 2 teammates and presented HCI research to 150+ community members.",
@@ -119,6 +158,7 @@ export const skills = [
       "ArduCam",
       "RFID",
       "3D Printing",
+      "Onshape",
       "LabVIEW",
       "PhotonVision",
     ],
