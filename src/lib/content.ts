@@ -79,7 +79,7 @@ export const projects = [
     href: "https://fantasy-analyzer.vercel.app/",
     images: [
       {
-        src: "/images/fantasy-analyzer/hero.png",
+        src: "/images/fantasy-analyzer/hero.jpg",
         alt: "Fantasy Analyzer landing page with player search and NFL research tools",
         fit: "cover",
       },
