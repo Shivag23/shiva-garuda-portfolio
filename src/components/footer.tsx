@@ -51,17 +51,6 @@ export function Footer() {
                   </span>
                 </a>
               </li>
-              <li>
-                <a
-                  href={site.links.resume}
-                  className="flex items-center justify-between border-b border-border py-2 text-muted transition-colors hover:text-accent"
-                >
-                  <span>Resume</span>
-                  <span className="text-[11px] tracking-[0.16em] uppercase">
-                    PDF
-                  </span>
-                </a>
-              </li>
             </ul>
           </div>
         </Reveal>

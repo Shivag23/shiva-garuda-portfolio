@@ -7,7 +7,6 @@ import { site } from "@/lib/content";
 const socials = [
   { href: site.links.github, label: "GitHub" },
   { href: site.links.linkedin, label: "LinkedIn" },
-  { href: site.links.resume, label: "Resume" },
 ];
 
 export function Hero() {

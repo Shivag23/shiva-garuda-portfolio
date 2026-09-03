@@ -20,7 +20,6 @@ export const site = {
   links: {
     github: "https://github.com/Shivag23",
     linkedin: "https://www.linkedin.com/in/shiva-garuda",
-    resume: "/resume.pdf",
   },
 } as const;
 

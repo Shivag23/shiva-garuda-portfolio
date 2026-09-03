@@ -29,12 +29,6 @@ export function Nav() {
               {item.label}
             </a>
           ))}
-          <a
-            href={site.links.resume}
-            className="border border-accent/40 px-3 py-1.5 font-mono text-[11px] tracking-[0.16em] text-accent uppercase transition-colors hover:bg-accent hover:text-background"
-          >
-            Resume
-          </a>
         </nav>
 
         <button
@@ -67,13 +61,6 @@ export function Nav() {
                   {item.label}
                 </a>
               ))}
-              <a
-                href={site.links.resume}
-                className="mt-2 inline-flex w-fit border border-accent/40 px-3 py-1.5 font-mono text-[11px] tracking-[0.16em] text-accent uppercase"
-                onClick={() => setOpen(false)}
-              >
-                Resume
-              </a>
             </div>
           </motion.nav>
         ) : null}
