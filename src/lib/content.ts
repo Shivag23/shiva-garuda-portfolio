@@ -7,7 +7,7 @@ export const site = {
     school: "University of California, Berkeley",
     degree: "B.S. Electrical and Computer Engineering",
     dates: "Aug. 2026 – Present",
-    expected: "Expected May 2030",
+    expected: "Expected May 2029",
     coursework: [
       "Linear Algebra & Differential Equations",
       "Structure and Interpretation of Computer Programs",
